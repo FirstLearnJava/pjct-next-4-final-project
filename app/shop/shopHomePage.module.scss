@@ -1,0 +1,30 @@
+.flexProductFields {
+  margin: 100px 0 0 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  & > span {
+    display: table;
+    margin: 0 auto;
+  }
+}
+
+.positionProductFieldsDescription {
+  margin: 0 auto;
+  position: relative;
+  bottom: 36px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.centerPFDescription {
+  display: table;
+  margin: 0 auto;
+  color: white;
+}
+.productFieldLinks {
+  text-decoration: none;
+}
+.productFieldImage {
+  border: 2px solid darkgreen;
+  border-radius: 2%;
+}
